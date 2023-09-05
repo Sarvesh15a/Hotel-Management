@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/image/icon.png" type="image/icon">
+    <title>Room Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/book.css">
+    <style>
+        .top {
+            border: 2px solid black;
+            margin: 10px auto;
+            width: 100%;
+            background-color: rgb(123, 88, 235);
+        }
+
+        .top h1 {
+            text-align: center;
+        }
+
+        .top img {
+            width: 13%;
+            display: block;
+            margin: 4px auto;
+
+
+        }
+
+        .left {
+            /* border: 2px solid black; */
+            padding: 10px;
+            margin: 10px 20px;
+        }
+
+        .left li {
+            margin: 20px;
+        }
+
+
+        h2 {
+            text-align: center;
+        }
+
+        .formtop {
+            /* border: 2px solid black; */
+            display: inline-block;
+
+        }
+
+        .formmid {
+            /* border: 2px solid black; */
+            display: inline-block;
+            box-sizing: border-box;
+            margin: 3px 40px;
+            position: absolute;
+            right: 160px;
+
+        }
+
+        h3 {
+            margin: 1px 56px;
+        }
+
+        .btn {
+            margin: 20px 55px;
+        }
+
+        .btn:hover {
+            background-color: brown;
+        }
+        
+        body{
+            background-color: rgb(196, 193, 193);
+            
+        }
+        header{padding: 3px;
+            margin-left: 15%;
+            margin-right: 15%;}
+    </style>
+</head>
+
+<body>
+    
+    <div class="top">
+        <img src="logo.png" alt="logo">
+        <h1>Hotel New City, Delhi </h1>
+    </div>
+    
+
+    <header>
+        <h2>Room Booking Form</h2>
+                <h3>Fill the form</h3>
+
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Name</label>
+                <input type="name" class="form-control" id="inputPassword4">
+              </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="number" class="form-label">Adhar No.</label>
+                <input type="number" class="form-control" id="number">
+              </div>
+            <div class="col-md-6">
+                <label for="number" class="form-label">Phone No.</label>
+                <input type="number" class="form-control" id="number">
+              </div>
+            <div class="col-md-6">
+                <label for="number" class="form-label">Age</label>
+                <input type="number" class="form-control" id="number">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Type of Room</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                  <option value="single"> Single </option>
+                  <option value="couple"> Couple </option>
+                  <option value="faimly"> Faimly</option>
+                  <option value="bachelor"> Bachelor</option>
+                  <option value="girl"> Girl</option>
+                </select>
+              </div>
+            
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+                <option value="Enter the State">Enter a state</option>
+                                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands
+                                            </option>
+                                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                            <option value="Assam">Assam</option>
+                                            <option value="Bihar">Bihar</option>
+                                            <option value="Chandigarh">Chandigarh</option>
+                                            <option value="Chhattisgarh">Chhattisgarh</option>
+                                            <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                            <option value="Daman and Diu">Daman and Diu</option>
+                                            <option value="Delhi">Delhi</option>
+                                            <option value="Lakshadweep">Lakshadweep</option>
+                                            <option value="Puducherry">Puducherry</option>
+                                            <option value="Goa">Goa</option>
+                                            <option value="Gujarat">Gujarat</option>
+                                            <option value="Haryana">Haryana</option>
+                                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                            <option value="Jharkhand">Jharkhand</option>
+                                            <option value="Karnataka">Karnataka</option>
+                                            <option value="Kerala">Kerala</option>
+                                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                            <option value="Maharashtra">Maharashtra</option>
+                                            <option value="Manipur">Manipur</option>
+                                            <option value="Meghalaya">Meghalaya</option>
+                                            <option value="Mizoram">Mizoram</option>
+                                            <option value="Nagaland">Nagaland</option>
+                                            <option value="Odisha">Odisha</option>
+                                            <option value="Punjab">Punjab</option>
+                                            <option value="Rajasthan">Rajasthan</option>
+                                            <option value="Sikkim">Sikkim</option>
+                                            <option value="Tamil Nadu">Tamil Nadu</option>
+                                            <option value="Telangana">Telangana</option>
+                                            <option value="Tripura">Tripura</option>
+                                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                            <option value="Uttarakhand">Uttarakhand</option>
+                                            <option value="West Bengal">West Bengal</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+
+
